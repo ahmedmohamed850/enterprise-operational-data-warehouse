@@ -219,3 +219,19 @@ enterprise-operational-data-warehouse/
 - [Star Schema Documentation](docs/star_schema.md)
 - [Project Results](docs/project_results.md)
 - [Interview Preparation Guide](docs/interview_cheat_sheet.md)
+
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Star Schema](docs/star_schema.md)
+- [Project Results](docs/project_results.md)
+- [Interview Preparation](docs/interview_cheat_sheet.md)
+
+## Author
+
+**Ahmed Abdelhamid Elsisi**
+
+Data & AI / Technical Leadership
+
+GitHub: https://github.com/ahmedmohamed850
