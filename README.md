@@ -1,6 +1,36 @@
 # Enterprise Operational Data Warehouse & Analytics Pipeline
 
-End-to-end data engineering portfolio project that transforms synthetic operational data into a clean dimensional data warehouse for analytics, reporting, and management decision support.
+End-to-end operational data engineering project using Python, PySpark, Spark SQL, ETL, data quality validation, dimensional modeling, star schema, analytics and management reporting.
+
+## Project Status
+
+**Completed**
+
+### Final Results
+
+- 21,802 raw operational records
+- 21,773 clean records after ETL
+- 18 data-quality issues detected
+- 5 dimension tables
+- 4 fact tables
+- 9 warehouse tables
+- 7 management reports
+
+## Architecture
+
+Synthetic Operational Data  
+→ PySpark Ingestion  
+→ Data Quality Validation  
+→ ETL & Cleaning  
+→ Dimensional Modeling  
+→ Star Schema  
+→ Spark SQL Analytics  
+→ Management Reports
+
+## Star Schema
+
+![Enterprise Operational Data Warehouse Star Schema](docs/star_schema.png)
+
 
 ## Project Overview
 
