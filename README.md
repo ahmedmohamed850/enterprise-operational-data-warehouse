@@ -51,7 +51,17 @@ Management KPIs & Reports
 - Management Reporting
 
 ## Project Results
+## Final Pipeline Results
 
+| Metric | Result |
+|---|---:|
+| Raw Operational Records | 21,802 |
+| Clean Records After ETL | 21,773 |
+| Data Quality Issues Detected | 18 |
+| Dimension Tables | 5 |
+| Fact Tables | 4 |
+| Warehouse Tables | 9 |
+| Management Reports | 7 |
 The completed pipeline produced:
 
 - 21,802 raw operational records
@@ -75,7 +85,13 @@ The validation layer detects:
 - Missing operational values
 
 ## Dimensional Model
+## Star Schema
 
+The analytical warehouse uses a dimensional star-schema design with five dimension tables and four fact tables.
+
+![Enterprise Operational Data Warehouse Star Schema](docs/star_schema.png)
+
+The schema supports maintenance, incident, inventory and procurement analytics while connecting operational events to equipment, personnel, dates, locations and suppliers.
 ### Dimension Tables
 
 - DimEquipment
@@ -117,7 +133,16 @@ The project generates the following reports:
 - `reorder_parts.csv`
 
 ## Dashboard Visualizations
+## Dashboard Visualizations
 
+### Maintenance Cost by Equipment Type
+![Maintenance Cost](dashboard/maintenance_cost_by_equipment_type.png)
+
+### Incidents by Severity
+![Incidents by Severity](dashboard/incidents_by_severity.png)
+
+### Supplier Delivery Performance
+![Supplier Delivery Performance](dashboard/supplier_delivery_performance.png)
 The repository includes management-ready charts for:
 
 - Maintenance cost by equipment type
@@ -156,3 +181,11 @@ enterprise-operational-data-warehouse/
 ├── sql/
 ├── docs/
 └── data/
+
+## Project Documentation
+
+- [Architecture](docs/architecture.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Star Schema Documentation](docs/star_schema.md)
+- [Project Results](docs/project_results.md)
+- [Interview Preparation Guide](docs/interview_cheat_sheet.md)
